@@ -1,0 +1,49 @@
+﻿@page "/"
+
+<content>
+    <h1>Agregar Galera -Id- </h1>
+    @*primer contenedor del nombre y dimenciones *@
+    <div> 
+        @*contenedor de nombre *@
+        <div class="input-group">
+            <label>Nombre</label>
+            <input placeholder="Ingrese el nombre de la galera" class="form-control" type="text" />
+
+        </div>
+
+        @*contenedor de dimenciones *@
+
+        <div>
+            <label>Dimenciones</label>
+            <div style="display:flex; flex-direction:row;">
+                <input placeholder="Largo" type:"text" class="form-control" />
+                <input placeholder="Ancho" type:"text" class="form-control" />
+            </div>
+        </div>
+
+    </div>
+    <hr />
+    @*segundo contenedor de ubicacion*@
+    <div class="input-group">
+        <label>Ubicacion</label>
+        
+        <div style="display:flex; flex-direction:row;">
+                <input placeholder="Latitud" type:"text" class="form-control" />
+                <input placeholder="Longitud" type:"text" class="form-control" />
+         </div>
+
+
+    </div>
+    <hr />
+    @*ultimo contenedor de capacidad maxima*@
+    <div style="display:flex; flex-direction:row">
+        <label>capacidad maxima</label> 
+        <input placeholder="Capacidad maxima" />
+    </div>
+
+
+</content>
+
+
+
+
